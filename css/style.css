@@ -5,31 +5,149 @@ html {
 }
 
 body {
-    background-color: ;
-    color: ;
-    font-size: ;
+    background-color: #f4f9ff;
+    color: #555;
+    font-size: 15px;
 }
 
 img {
     max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    margin: 0;
 }
 
 /*サイト全体のコンテンツ幅を設定*/
 
 .container {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 /*中のコンテンツ部分の最大幅を設定*/
 
 .inner {
-    max-width: 600px;
+    max-width: 550px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .section-title {
-    font-size: ;
-    font-weight: ;
-    margin-bottom: ;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: left;
 }
+
+/*
+=========================
+ヘッダー
+=========================
+*/
+
+#header {
+    margin: 3% auto 0;
+    max-width: 800px;
+}
+
+.site-title {
+    width: 200px;
+    margin: 0;
+}
+
+
+/*
+===========================
+メインビジュアル
+===========================
+*/
+
+#mainvisual {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/*
+===========================
+インデックス
+===========================
+*/
+
+#index {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+}
+
+.inner h2 {
+    padding-top: 30px;
+}
+
+.index-list {
+    margin: 5px 0;
+    padding: 0 0 30px 0;
+    display: inline-block;
+}
+
+.index-list li {
+    text-align: left;
+}
+
+/*
+===========================
+デタイル
+===========================
+*/
+
+.content {
+    display: flex;
+    gap: 8%;
+}
+
+.f-1 {
+    flex: 1;
+}
+
+#d-img img {
+    width: 50vw;
+}
+
+.text {
+    text-align: left;
+}
+
+.text dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.text dt {
+    width: 25%;
+    margin: 0;
+}
+
+.text dd {
+    width: 75%;
+    margin: 0;
+}
+
+#c-box p {
+    text-align: left;
+}
+
+#c-box a {
+    color: #555;
+}
+
+/*
+===========================
+フッター
+===========================
+*/
+
